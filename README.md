@@ -26,6 +26,9 @@ Raw financial data is rarely ready for analysis right out of the box. To get the
 * **Trend Smoothing (Rolling Windows):** Applied a `rolling(window=X).mean()` function to the daily closing prices to calculate the **50-Day** (short-term trend) and **200-Day** (macro trend) Simple Moving Averages.
 * **Signal Generation:** Engineered a new data column to track crossovers between the 50-day and 200-day averages, allowing the script to programmatically detect market shifts.
 
+Data source: Kaggle:
+The data source has been imported from Kaggle.
+
 ## Automated Findings (Terminal Output)
 The script doesn't just process the data behind the scenes—it answers the research questions by printing this exact report directly into the terminal:
 
@@ -49,5 +52,3 @@ Total Macro Growth: 19,039.68%
 ----------------------------------------
 
 
-Data source: Kaggle:
-The data source has been imported from Kaggle.
