@@ -1,7 +1,10 @@
 
-
 # btc-eur-market-cycles
 A Python project where I find a decade of Bitcoin prices to see if traditional stock market math can actually spot crypto bull runs.
+
+![](bitcoin_10yr_analysis.png)
+
+
 # 📈 10 Years of Bitcoin: A Python Data Analysis
 
 ## Project Introduction
@@ -44,3 +47,7 @@ Total Macro Growth: 19,039.68%
    -> 2022-01-18 at €37,403.79
    -> 2023-09-13 at €24,023.85
 ----------------------------------------
+
+
+Data source: Kaggle:
+The data source has been imported from Kaggle.
